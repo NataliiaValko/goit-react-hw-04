@@ -1,0 +1,17 @@
+.image_gallery {
+  list-style: none;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.image_gallery {
+  gap: 15px;
+}
+@media (min-width: 768px) {
+  .image_gallery li {
+    flex: 0 0 calc(25% - 16px);
+  }
+}

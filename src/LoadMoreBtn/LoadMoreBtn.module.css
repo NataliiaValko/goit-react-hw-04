@@ -1,0 +1,9 @@
+.btn_loadMore {
+  cursor: pointer;
+
+  padding: 10px 15px;
+  background: #518005;
+  color: rgb(238, 242, 233);
+  font-size: 18px;
+  margin: 30px;
+}
